@@ -1,0 +1,11 @@
+[[customization.user]]
+name = "test"
+password = "testtest"
+key = "ssh-rsa AAATESTTESTTESTEST"
+groups = ["wheel"]
+
+[[customizations.disk.partitions]]
+mountpoint = "/"
+minsize = "10 GiB"
+label = "root"
+fs_type = "xfs"
