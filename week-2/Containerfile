@@ -10,7 +10,7 @@ RUN dnf insatll -y \
 podman \
 lshw sysstat \
 && dnf clean all \
-&& rm -rf /var/cache/libdnf5
+&& rm -rf /var/cache/libdnf5\
 
 RUN systemctl enable podman
 RUN systemctl enable sshd
